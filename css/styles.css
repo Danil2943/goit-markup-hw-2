@@ -1,6 +1,6 @@
 body {
-  font-family: "Roboto" sans-serif;
-  color: var(--navyblue);
+  font-family: "Roboto", sans-serif;
+  color: var(--slate);
   background-color: #fff;
 }
 
@@ -23,34 +23,38 @@ body {
 }
 
 .icon,
-.logo {
-  color: var(--navyblue);
-  font-family: Raleway;
+.logo,
+.link {
+  color: var(--iris);
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.16em;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .sp-icon,
 .sp-logo {
-  color: var(--iris);
-  font-family: Raleway;
+  color: var(--navyblue);
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.16em;
+  line-height: 1.17em;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .nav,
-.m-p-nav {
+.list {
   color: var(--navyblue);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5em;
   letter-spacing: 0.32px;
+  list-style: none;
 }
 
 .contacts,
@@ -75,6 +79,11 @@ body {
 .btn:focus {
   color: var(--white);
   background-color: var(--ocean);
+}
+
+.cards-img {
+  width: 360px;
+  height: 300px;
 }
 
 .cards-description {
