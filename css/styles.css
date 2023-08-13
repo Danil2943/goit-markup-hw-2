@@ -246,8 +246,11 @@ body {
   text-transform: capitalize;
 }
 
-.team-list,
 .team {
+  color: var(--cloud);
+}
+
+.team-list {
   background-color: var(--white);
 }
 
