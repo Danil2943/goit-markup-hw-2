@@ -247,7 +247,7 @@ body {
 }
 
 .team {
-  color: var(--cloud);
+  background-color: var(--cloud);
 }
 
 .team-list {
